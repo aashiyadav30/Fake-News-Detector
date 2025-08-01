@@ -27,12 +27,12 @@
 ---
 
 ## 🛠️ Tech Stack
+-**Frontend**: React, Vite, Tailwind CSS
+-**Backend**: Node.js, Express.js
+-**Database**: MongoDB
+-**Hosting**: Render
+-**Other**: Git, GitHub, VS Code
 
-- **Frontend**: React, Vite, Tailwind CSS  
-- **Backend**: Python (Flask or FastAPI)  
-- **ML/NLP**: scikit-learn, pandas, TF-IDF, Logistic Regression  
-- **Hosting**: Render / Vercel / Railway  
-- **Other**: Git, GitHub, VS Code
 
 ---
 
