@@ -27,11 +27,13 @@
 ---
 
 ## 🛠️ Tech Stack
--**Frontend**: React, Vite, Tailwind CSS
--**Backend**: Node.js, Express.js
--**Database**: MongoDB
--**Hosting**: Render
--**Other**: Git, GitHub, VS Code
+
+- **Frontend**: React, Vite, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB   
+- **Hosting**: Render  
+- **Other**: Git, GitHub, VS Code
+
 
 
 ---
