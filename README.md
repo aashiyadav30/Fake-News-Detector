@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# 📰 Fake News Detector - AI-Powered News Verifier
 
-## Project info
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/aashiyadav30/Fake-News-Detector/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![View Demo](https://img.shields.io/badge/View-Demo-blue?logo=vercel&logoColor=white)](https://fake-news-detector-demo-link.com) <!-- 🔁 Replace this later -->
+[![Follow](https://img.shields.io/github/followers/aashiyadav30?label=Follow&style=social)](https://github.com/aashiyadav30)
 
-**URL**: https://lovable.dev/projects/3ee877e2-6f25-4544-afde-dd35bf89a516
+**Fake News Detector** is an AI-powered web application that helps users verify the authenticity of news articles. Leveraging natural language processing and machine learning, it identifies and classifies news as real or fake in real-time.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🧠 **AI-Based News Classification** using pre-trained machine learning models
+- 🌐 **Real-Time Prediction** on news input
+- 📊 **Accuracy Display & Confidence Score**
+- 📝 **User-friendly UI** built with modern web technologies
+- ☁️ **Deployed and Accessible Online** (Link below)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3ee877e2-6f25-4544-afde-dd35bf89a516) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔗 Live Demo
 
-**Use your preferred IDE**
+👉 [**Click here to view the live app**](https://fake-news-detector-demo-link.com)  
+*(You can replace this with the final deployment URL)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+- **Frontend**: React, Vite, Tailwind CSS  
+- **Backend**: Python (Flask or FastAPI)  
+- **ML/NLP**: scikit-learn, pandas, TF-IDF, Logistic Regression  
+- **Hosting**: Render / Vercel / Railway  
+- **Other**: Git, GitHub, VS Code
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+Fake-News-Detector/
+├── backend/             # Python backend with prediction API
+│   ├── model/           # Serialized ML model (e.g., pickle)
+│   └── app.py           # Main API server
+├── frontend/            # React-based frontend
+│   ├── public/          # Static files
+│   └── src/             # Components, pages, assets
+│       ├── components/
+│       └── App.jsx
+├── .gitignore
+├── README.md
+└── package.json
+````
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+* Node.js and npm
+* Python 3.8+
+* pip (Python package manager)
+
+---
+
+### 🔧 Steps to Run Locally
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/aashiyadav30/Fake-News-Detector.git
+cd Fake-News-Detector
+```
+
+#### 2. Set up the backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+#### 3. Set up the frontend
+
+```bash
+cd ../frontend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+#### 4. Open in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Visit: [http://localhost:5173](http://localhost:5173)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤖 How It Works
 
-## What technologies are used for this project?
+1. User enters a news headline or body
+2. Frontend sends it to backend API
+3. Backend loads the ML model and performs prediction
+4. Result is returned to frontend and displayed
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📸 Screenshots
 
-## How can I deploy this project?
+> *(Add screenshots here later if available)*
 
-Simply open [Lovable](https://lovable.dev/projects/3ee877e2-6f25-4544-afde-dd35bf89a516) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+We welcome contributions!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork this repo
+2. Create your feature branch:
+   `git checkout -b feature/YourFeature`
+3. Commit changes:
+   `git commit -m "Add feature"`
+4. Push to branch:
+   `git push origin feature/YourFeature`
+5. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📬 Contact
+
+* 📧 Email: [aashiyadav1330@gmail.com](mailto:aashiyadav1330@gmail.com)
+* 🌐 GitHub: [@aashiyadav30](https://github.com/aashiyadav30)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on [GitHub](https://github.com/aashiyadav30/Fake-News-Detector) and share it!
+
+```
