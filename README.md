@@ -22,7 +22,7 @@
 ## 🔗 Live Demo
 
 👉 [**Click here to view the live app**](https://fake-news-detector-demo-link.com)  
-*(You can replace this with the final deployment URL)*
+
 
 ---
 
